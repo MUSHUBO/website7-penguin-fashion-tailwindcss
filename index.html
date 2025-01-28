@@ -1,15 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>penguin-fashion-resources</title>
+    <!-- google font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif+Todhri&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- fontawesome cdn -->
     <link rel="shortcut icon" href="./icons/shopping-cart 1.png" type="image/x-icon">
+    <!-- title logo -->
+    <script src="https://kit.fontawesome.com/bab4642bab.js" crossorigin="anonymous"></script>
+    <!-- tailwind cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .font-roboto {
+            font-family: "Roboto", serif;
+        }
+
+        .font-bebas-neue {
+            font-family: "Bebas Neue", serif;
+        }
+
+        .font-noto-serif {
+            font-family: "Noto Serif Todhri", serif;
+        }
+    </style>
 </head>
-<body>
-    <header>
-        
+
+<body class="font-roboto">
+    <header class="bg-[#FFFBF0] h-[715px] ">
+        <!-- navbar -->
+        <nav>
+            <h4></h4>
+            <ul>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </nav>
+        <!-- banner -->
+        <section class="sm:flex sm:items-center md:justify-around mx-4 ">
+            <div class="my-10">
+                <!-- contain -->
+                <h1 class="sm:text-7xl text-6xl font-bebas-neue"><span class="text-yellow-500">Be the Penguins</span><br> of Winter
+                </h1>
+                <br>
+                <p class="text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the printing <br> and typesetting
+                    industry.</p>
+                <br>
+                <button class="bg-gradient-to-b from-[#A4BC46] to-[#85A019] text-white px-8 py-4 rounded-xl ">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    BUY NOW
+                </button>
+            </div>
+            <div class="">
+                <!-- image -->
+                <img src="images/model.png" alt="">
+            </div>
+        </section>
     </header>
     <main>
 
@@ -18,4 +72,5 @@
 
     </footer>
 </body>
+
 </html>
